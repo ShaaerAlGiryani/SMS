@@ -1,0 +1,90 @@
+.WP{
+  width: 451px;
+  padding: 20px;
+  background: linear-gradient(white,white);
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+}
+    
+
+.post{
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    background: #fefcfc;
+    text-align: left;
+    border-radius: 20px;
+    font-size: 16px;
+    
+}
+.link{
+  display: flex;
+  margin-top: 10px;
+  
+}
+
+body{
+  background: linear-gradient(#f6d09b,#fefcfc);
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+a{
+  text-decoration: none;
+  color: #050505;
+  margin: 10px;
+}
+.WP h2{
+  color: black;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+}
+header.logo{
+  font-size: 30px;
+  text-transform: uppercase;
+  }
+  header ul{
+      display:flex ;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+  }
+  header ul li{
+      margin-right: 30px;
+  }
+  header ul li a{
+      padding: 6px 15px;
+      border-radius: 20px;
+  }
+  header ul li a:hover{
+  background: #fefcfc;
+  color: #f39e3c;
+  }
+  .link  input[type="submit"]{
+    border: 0;
+    width: 70px;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid #f6b963;
+    padding: 6px 3px ;
+    outline: none;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.link input[type="submit"]:hover{
+  background: #f39e3c;
+  color: white;
+}

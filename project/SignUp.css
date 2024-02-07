@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#f6d09b,#fefcfc);
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+.su{
+    width: 210px;
+    padding: 30px;
+    background: #fefcfc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:left;
+    border: 1px solid #f6b963;
+    border-radius: 20px;
+    
+
+}
+.su h2{
+    color: black;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.su input[type="text"], .su input[type="password"],.su select,.su input[type="date"]{
+    border: 0;
+    width: 200px;
+    background: none;
+    display:block;
+    border: 1px solid black;
+    padding: 10px;
+    outline: none;
+    color: black;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    
+}
+.su input[type="submit"],.su input[type="reset"]{
+    border: 0;
+    width: 100px;
+    background: none;
+    text-align: center;
+    border: 1px solid #f6b963;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.su label
+{
+    padding: 11px;
+}
+.su input[type="submit"]:hover,.su input[type="reset"]:hover{
+    background: #f39e3c;
+    color: white;
+}
+

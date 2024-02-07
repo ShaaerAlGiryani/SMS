@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SignUp.css">
+    <title>Signup</title>
+</head>
+<body>
+    <form class="su" action="SignUp.php" method="post">
+        <h2>SignUp</h2>
+            <label for="un"> user name</label>
+            <input required autofocus id="un" type="text" placeholder="User Name" name="user">
+            <br>
+            <label for="em">Email</label>
+            <input required  id="em" type="text" placeholder="Email" name="Email">
+            <br>
+        
+            <Label for="BD">Birthday</Label>
+            <input required id="BD" type="date">
+            <br>
+            <Label for="FM">Male/Female</Label>
+            <select id="FM" name="sex">
+                <option value="option1">Male</option>
+                <option value="option2">Female</option>
+              </select>
+              <br>
+            <label for="pw">Password</label>
+            <input required id="pw" type="password" placeholder="Password" name="password">
+            <br>
+        
+            <label for="pw-c">confirm password</label>
+            <input required id="pw-c" type="password" placeholder="confirm password" name="password-c">
+            <br>
+            <input type="submit" value="Enter">
+            <input type="reset" value="Clear">
+      
+    </form>
+</body>
+</html>
